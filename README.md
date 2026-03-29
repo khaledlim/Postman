@@ -27,9 +27,3 @@ newman run Sample_collection.json -r html
 
 ### Exécuter avec plusieurs reporters (CLI + HTML)
 newman run Sample_collection.json -r cli,html
-
-Un dossier `newman/` sera automatiquement créé contenant les rapports générés :
-newman/
-  ├── Sample_collection.html
-  ├── Sample_collection.json
-  └── ...
